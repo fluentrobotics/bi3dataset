@@ -1,14 +1,14 @@
 # Nerfies
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository that contains source code for the [Bi3 dataset website](https://fluentrobotics.com/pred2nav/).
 
-If you find Nerfies useful for your work please cite:
+If you find the Bi3 dataset useful for your work please cite:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+@article{stratton2026bi3data,
+  author    = {Stratton, Andrew and Singamaneni, Phani Teja and Goyal, Pranav and Alami, Rachid and Mavrogiannis, Christoforos},
+  title     = {Bi3: A Biplatform, Bicultural, Biperson Dataset for Social Robot Navigation},
+  journal   = {Proceedings of the 2026 International Conference on Robotics and Automation},
+  year      = {2026},
 }
 ```
 
