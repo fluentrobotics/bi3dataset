@@ -181,18 +181,6 @@
 </section>
 
 
-<section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    <pre><code>@inproceedings{stratton2026bi3dataset,
-  author    = {Stratton, Andrew and Singamaneni, Phani Teja and Goyal, Pranav and Alami, Rachid and Mavrogiannis, Christoforos},
-  title     = {Bi3: A Biplatform, Bicultural, Biperson Dataset for Social Robot Navigation},
-  booktitle   = {Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)},
-  year      = {2026},
-}</code></pre>
-  </div>
-</section>
-
 <section class="section">
   <div class="container is-max-desktop">
 
@@ -210,6 +198,151 @@
         </div>
       </div>
       <!--/ Concurrent Work. -->
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered">
+      <!-- Workspace setup. -->
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Experimental Setup</h2>
+
+          <div class="content has-text-justified">
+            <p>
+              Our data is collected in a laboratory setting with two humans and one robot. Each navigates a shared workspace completing a block stacking task designed to emulate close-proximity settings such as homes, hospitals, and warehouses.
+            </p>
+            <div class="has-text-centered mt-5">
+              <embed
+                src="./static/images/prediction_experiment_dataset.pdf"
+                type="application/pdf"
+                width="100%"
+                height="600px"
+                style="border-radius: 10px;"
+              >
+            </div>
+            <p class="mt-5">
+              Our dataset has diversity in robot platforms and cultural background, being collected at two sites: the University of Michigan in the USA and LAAS-CNRS in France. The full dataset includes 74 participants, totaling 10.5 hours of data.
+            </p>
+            <div class="columns is-variable is-4 mt-4">
+              <div class="column is-half">
+                <div class="has-text-centered">
+                  <img
+                    src="./static/images/hst_um_16x.gif"
+                    alt="University of Michigan experimental setup"
+                    style="width: 100%; height: auto; border-radius: 10px;"
+                  >
+                  <p class="is-size-6 mt-2">UM</p>
+                </div>
+              </div>
+              <div class="column is-half">
+                <div class="has-text-centered">
+                  <img
+                    src="./static/images/hst_laas_16x.gif"
+                    alt="LAAS-CNRS experimental setup"
+                    style="width: 100%; height: auto; border-radius: 10px;"
+                  >
+                  <p class="is-size-6 mt-2">LAAS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/ Workspace setup. -->
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Analysis</h2>
+
+          <div class="content has-text-justified">
+            <p>
+              We compare our dataset to several existing datasets and find it has the highest standard deviation in human velocity, lowest minimum distance at both sites, and highest average velocity at LAAS. These statistics show the human motion in Bi<sup>3</sup> is diverse and challenging.
+            </p>
+            <div class="columns is-multiline is-variable is-4 mt-4">
+              <div class="column is-half">
+                <img
+                  src="./static/images/hmd_deanon.png"
+                  alt="hmd deanon"
+                  style="width: 100%; height: auto; border-radius: 10px;"
+                >
+              </div>
+              <div class="column is-half">
+                <img
+                  src="./static/images/hvel_deanon.png"
+                  alt="hvel deanon"
+                  style="width: 100%; height: auto; border-radius: 10px;"
+                >
+              </div>
+            </div>
+            <p class="mt-5">
+              Our dataset contians further diversity in terms of robot motion, which we generated using a model predictive controller leveraging five distinct human motion prediction models. We quantify aspects of the robot motion, and find that the motion differed substantially across sites. Although the motion statistics for CV, CoHAN, and HST are similar, our user impression data for them are very different (see in the paper), validating the importance of our collected user impressions.
+            </p>
+            <div class="columns is-multiline is-variable is-4 mt-4">
+              <div class="column is-half">
+                <embed
+                  src="./static/images/rmd.pdf"
+                  type="application/pdf"
+                  width="100%"
+                  height="300px"
+                  style="border-radius: 10px;"
+                >
+              </div>
+              <div class="column is-half">
+                <embed
+                  src="./static/images/raccel.pdf"
+                  type="application/pdf"
+                  width="100%"
+                  height="300px"
+                  style="border-radius: 10px;"
+                >
+              </div>
+              <div class="column is-half">
+                <embed
+                  src="./static/images/rvel.pdf"
+                  type="application/pdf"
+                  width="100%"
+                  height="300px"
+                  style="border-radius: 10px;"
+                >
+              </div>
+              <div class="column is-half">
+                <embed
+                  src="./static/images/rpe.pdf"
+                  type="application/pdf"
+                  width="100%"
+                  height="300px"
+                  style="border-radius: 10px;"
+                >
+              </div>
+            </div>
+            <p class="mt-5">
+              FILLER TEXT
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@inproceedings{stratton2026bi3dataset,
+  author    = {Stratton, Andrew and Singamaneni, Phani Teja and Goyal, Pranav and Alami, Rachid and Mavrogiannis, Christoforos},
+  title     = {Bi3: A Biplatform, Bicultural, Biperson Dataset for Social Robot Navigation},
+  booktitle   = {Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)},
+  year      = {2026},
+}</code></pre>
   </div>
 </section>
 
